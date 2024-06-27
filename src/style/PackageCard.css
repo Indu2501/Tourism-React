@@ -1,0 +1,91 @@
+/* src/style/PackageCard.css */
+.package-card {
+    background-color: #eeb43f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    flex: 1; /* Ensure cards take up equal space */
+}
+
+.package-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package-info {
+    padding: 10px;
+}
+
+.package-info h3 {
+    color: #ff4500;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.package-info p {
+    margin: 5px 0;
+}
+
+.package-info button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.package-info button:hover {
+    background-color: #e43e00;
+}
+
+/* src/style/SpecialPackage.css */
+.special-package-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.special-package-section h3 {
+    margin-bottom: 30px;
+}
+
+.sp-h {
+    color: rgba(8, 8, 3, 0.896);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sp-para{
+    color: rgb(118, 105, 105);
+    font-size: 16px;
+    padding: 10px;
+}
+.carousel-slide {
+    display: flex;
+    justify-content: space-around;
+}
+.days{
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1000px) {
+    .carousel-slide {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .carousel-slide {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

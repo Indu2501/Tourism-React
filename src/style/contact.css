@@ -1,0 +1,98 @@
+/* src/styles/Contact.css */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+  }
+
+ 
+  .contact-details {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .contact-details h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  .icon{
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    
+  }
+  
+  .contact-item svg {
+    margin-right: 15px;
+    color: #ff4500;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: rgb(196, 194, 194);
+    padding: 40px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #e43e00;
+  }
+  @media screen and (max-width:1000px) {
+    .contact-section {
+      display: flex;
+      flex-direction: column;
+      padding: 1px;
+    }
+  }
+  @media screen and (max-width:700px) {
+    .contact-section {
+      display: flex;
+      flex-direction: column;
+      padding: 1px;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.carousel-slide {
+    display: flex;
+    justify-content: space-around;
+   padding-left: 180px;
+   padding-right: 180px;
+}
+.comment-head{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.cmt-card{
+    margin: 50px 50px 35px;
+    padding: 35px 25px 35px 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+.cmt-container{
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    
+}
+.cmt-icon-card{
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+}
+.cmt-icon{
+    color: rgb(229, 87, 16);
+    font-size: 32px;
+}
+.cmt-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(229, 87, 16);
+
+}
+.cmt-role{
+    color: rgb(44, 40, 40);
+    font-size: 16px;
+}

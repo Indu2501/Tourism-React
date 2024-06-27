@@ -1,0 +1,53 @@
+.navSection {
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  color: white;
+}
+
+.navSection ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navSection ul li {
+  list-style: none;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(247, 210, 5);
+}
+
+.nav-link.active {
+  color: rgb(247, 210, 5);
+}
+.banner-img{
+  height: auto;
+  width: 100vw;
+}
+@media screen and (max-width:1000px) {
+  .navSection ul li {
+    margin: 0;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .navSection ul li {
+    margin: 0;
+    font-size: 16px;
+    padding: 10px;
+
+  }
+}

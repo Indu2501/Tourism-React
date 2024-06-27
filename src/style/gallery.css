@@ -1,0 +1,68 @@
+.gallery-container{
+  text-align: center;
+  pad: 20px;
+}
+.gallery-container h2{
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 50px;
+  color: black;
+}
+
+.gallery-container p{
+  color: gray;
+  font-size: 16px;
+}
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 16px;
+  padding: 16px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* Black background with transparency */
+  color: #f1f1f1; /* White text */
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 25px;
+}
+.overlay p{
+  color:rgb(221, 207, 207);
+  font-size: 16px;
+}

@@ -1,0 +1,80 @@
+.wcInfo-section{
+    text-align: center;
+    justify-content: center;
+    background-image: url('../images/travelBg.png');
+    background-size: cover; /* Scale the background image to be as large as possible */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image within its container */
+    height: 60vh;
+    background-attachment: fixed;
+}
+.wcInfo-h{
+    padding-top: 50px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+
+.wcInfo-card{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+@media screen and (max-width:1000px) {
+    .wcInfo-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wc-card{
+        margin: 0px;
+        padding: 0px;
+    }
+    .wcInfo-section{
+        height: 100vh;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .wcInfo-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .wc-card{
+        margin: 0px;
+        padding: 0px;
+    }
+    .wcInfo-section{
+        height: 100vh;
+    }
+    
+    
+}
+.wc-card{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(229, 87, 16);
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+.wc-h{
+    color: rgb(44, 38, 19);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.wc-icon-card{
+    position: absolute;
+    top: -24px;
+    left: 44%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid rgb(229, 87, 16);
+}
+.wcs-icon{
+    color: rgb(229, 87, 16);
+    font-size: 24px;
+}
